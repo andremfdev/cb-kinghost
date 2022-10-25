@@ -1,3 +1,94 @@
-.btn {
-    @include style-btn(5.4rem, $secondary-color, $brand-color)
+.s-hero {
+  background-color: $brand-color;
+  margin-top: 11.9rem;
+  padding-top: 3.9rem;
+  .container {
+    @include flex-mode(flex-start, space-between, row);
+    .text {
+      width: 100%;
+      max-width: 55rem;
+      h1 {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 120%;
+        color: $white;
+        margin-bottom: 1.6rem;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 150%;
+        color: $white;
+        max-width: 48.8rem;
+        margin-bottom: 3.2rem;
+      }
+      button {
+        @include style-btn(5.4rem, $secondary-color, #543590);
+        margin-bottom: 8.6rem;
+      }
+      .conheca {
+        display: flex;
+        align-items: center;
+        gap: 1.6rem;
+        margin-bottom: 8.2rem;
+        span {
+          font-weight: 700;
+          line-height: 1.9rem;
+          color: $white;
+        }
+        .icon {
+          @include flex-mode(center, center, row);
+          background-color: hsla(261, 41%, 54%, 0.4);
+          border-radius: 0.6rem;
+          width: 4.2rem;
+          height: 4.2rem;
+        }
+      }
+    }
+    .image-hero {
+      position: relative;
+      top: 3.7rem;
+    }
+  }
+  @include responsive(991px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .text {
+        max-width: 100%;
+        margin-bottom: 3rem;
+        h1 {
+          text-align: center;
+        }
+        p {
+          max-width: 100%;
+          text-align: center;
+        }
+        button {
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 4rem;
+        }
+        .conheca {
+          justify-content: center;
+        }
+      }
+    }
+  }
+  @include responsive(600px) {
+    padding-top: 2.5rem;
+    margin-top: 8rem;
+    .container {
+      .text {
+        h1 {
+          font-size: 4.3rem;
+        }
+      }
+      .image-hero {
+        left: -0.9rem;
+      }
+    }
+  }
 }
