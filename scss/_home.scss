@@ -92,3 +92,47 @@
     }
   }
 }
+
+.s-resources {
+  margin-top: 14.9rem;
+  .container {
+    .title-area {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 5.3rem;
+      h2 {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 130%;
+        color: $sub-title-color;
+        max-width: 50.2rem;
+      }
+      p {
+        font-weight: 500;
+        line-height: 150%;
+        color: $text-color;
+      }
+    }
+    .cards-info {
+      width: 100%;
+      display: flex;
+      .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 28rem;
+        .icon {
+          margin: 4.1rem 0 3.1rem 0;
+
+          @include flex-mode(center, center, row);
+          width: 6.4rem;
+          height: 6.4rem;
+          background-color: $bg-icon;
+          border-radius: 1.2rem;
+        }
+      }
+    }
+  }
+}
