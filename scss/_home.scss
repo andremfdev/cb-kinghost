@@ -73,15 +73,19 @@
         }
         .conheca {
           justify-content: center;
+        margin-bottom: 3.2rem;
+          
         }
       }
     }
   }
+ 
   @include responsive(600px) {
     padding-top: 2.5rem;
     margin-top: 8rem;
     .container {
       .text {
+        margin-top: 4rem;
         h1 {
           font-size: 4.3rem;
         }
@@ -94,76 +98,134 @@
 }
 
 .s-resources {
- padding-top: 14.9rem;
- padding-bottom: 9.9rem;
- 
-    .title-area {
-      @include flex-mode(center, space-between, row);
-      margin-bottom: 5.3rem;
-      h2 {
-        font-family: 'PT Sans', sans-serif;
-        font-weight: 700;
-        font-size: 3.2rem;
-        line-height: 130%;
-        color: $sub-title-color;
-        max-width: 50.2rem;
-      }
-      p {
-        font-weight: 500;
-        line-height: 150%;
-        color: $text-color;
-      }
+  padding-top: 14.9rem;
+  padding-bottom: 9.9rem;
+
+  .title-area {
+    @include flex-mode(center, space-between, row);
+    margin-bottom: 5.3rem;
+    h2 {
+      font-family: "PT Sans", sans-serif;
+      font-weight: 700;
+      font-size: 3.2rem;
+      line-height: 130%;
+      color: $sub-title-color;
+      max-width: 50.2rem;
     }
-    .content {
-      @include flex-mode(flex-start, space-between, row);
-      .icon {
-        @include flex-mode(center, center, row);
-        width: 6.4rem;
-        height: 6.4rem;
-        background-color: $bg-icon;
-        border-radius: 1.2rem;
-        margin-bottom: 3rem;
+    p {
+      font-weight: 500;
+      line-height: 150%;
+      color: $text-color;
+    }
+  }
+  .content {
+    @include flex-mode(flex-start, space-between, row);
+    .icon {
+      @include flex-mode(center, center, row);
+      width: 6.4rem;
+      height: 6.4rem;
+      background-color: $bg-icon;
+      border-radius: 1.2rem;
+      margin-bottom: 3rem;
+    }
+    .info {
+      max-width: 23.9rem;
+      h4 {
+        font-weight: 800;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: $brand-color;
+        margin-bottom: 2rem;
       }
-      .info {
-        max-width: 23.9rem;
-        h4 {
-          font-weight: 800;
-          font-size: 1.8rem;
-          line-height: 2.2rem;
-          color: $brand-color;
-          margin-bottom: 2rem;
-        }
       p {
         font-weight: 400;
         line-height: 165%;
         color: $text-color;
       }
-      }
-      .card-featured {
-        width: 100%;
-        max-width: 28rem;
-        height: 32.3rem;
-        background-color: $bg-icon;
-        border-radius: 1.2rem;
-        padding-top: 4.1rem;
-        padding-left: 4.2rem;
-        .info {
-          p {
-            max-width: 20.4rem;
-          }
-        }
-        .icon {
-          background-color: $white;
+    }
+    .card-featured {
+      width: 100%;
+      max-width: 28rem;
+      height: 32.3rem;
+      background-color: $bg-icon;
+      border-radius: 1.2rem;
+      padding-top: 4.1rem;
+      padding-left: 4.2rem;
+      .info {
+        p {
+          max-width: 20.4rem;
         }
       }
-      ul {
-        margin-top: 4.1rem;
-        width: 100%;
-        max-width: 90.4rem;
-        @include flex-mode(flex-start, space-between, row);
-        padding-bottom: 6.5rem;
-        border-bottom: 3px solid hsla(261, 46%, 43%, 0.1);
-        padding-left: 2rem;
+      .icon {
+        background-color: $white;
       }
     }
+    ul {
+      margin-top: 4.1rem;
+      width: 100%;
+      max-width: 90.4rem;
+      @include flex-mode(flex-start, space-between, row);
+      padding-bottom: 6.5rem;
+      border-bottom: 3px solid hsla(261, 46%, 43%, 0.1);
+      padding-left: 2rem;
+    }
+  }
+  @include responsive(991px) {
+    .content {
+      flex-direction: column;
+      align-items: flex-start;
+      .card-featured {
+        max-width: 100%;
+        height: auto;
+        padding: 3rem;
+        @include flex-mode(center, center, column);
+        .info { 
+            max-width: 100%;
+            h4, p {
+              max-width: 100%;
+              text-align: center;
+            }
+        }
+      }
+    }
+  }
+  @include responsive(768px) {
+   padding-top: 10rem;
+   padding-bottom: 5rem;
+    .title-area {
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+    .content {
+      ul {
+        gap: 2.5rem;
+      }
+    }
+  }
+  @include responsive(480px) {
+    padding-top: 6rem;
+    .content {
+      ul {
+        flex-direction: column;
+        padding-left: 0px;
+        margin-top: 3rem;
+        li {
+        @include flex-mode(center, center, column);
+        .info {
+          h4, p{
+            text-align: center;
+          }
+        }
+
+        }
+      }
+      .info {
+        max-width: 95%;
+      }
+    }
+  }
 }
