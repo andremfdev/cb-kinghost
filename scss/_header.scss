@@ -21,9 +21,13 @@ header {
                             font-weight: 400;
                             line-height: 1.9rem;
                             color: #FCFCFC;
+                            transition: color .3s;
                         }
                         .span-bold {
                             font-weight: 700;
+                        }
+                        span:hover {
+                            color: $secondary-color;
                         }
                     }
                 }
