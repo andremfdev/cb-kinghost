@@ -94,13 +94,11 @@
 }
 
 .s-resources {
-  margin-top: 14.9rem;
-  .container {
+ padding-top: 14.9rem;
+ padding-bottom: 9.9rem;
+ 
     .title-area {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      @include flex-mode(center, space-between, row);
       margin-bottom: 5.3rem;
       h2 {
         font-family: 'PT Sans', sans-serif;
@@ -116,26 +114,18 @@
         color: $text-color;
       }
     }
-    .cards-info {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 3px solid hsla(261, 46%, 43%, 0.1);
-      .card {
-        padding: 41px 34px 68px 42px;
-        display: flex;
-        flex-direction: column;
-        max-width: 28rem;
-       
-        margin-bottom: 9.9rem;
-        .icon {
-          margin-bottom: 3rem;
-          @include flex-mode(center, center, row);
-          width: 6.4rem;
-          height: 6.4rem;
-          background-color: $bg-icon;
-          border-radius: 1.2rem;
-        }
+    .content {
+      @include flex-mode(flex-start, space-between, row);
+      .icon {
+        @include flex-mode(center, center, row);
+        width: 6.4rem;
+        height: 6.4rem;
+        background-color: $bg-icon;
+        border-radius: 1.2rem;
+        margin-bottom: 3rem;
+      }
+      .info {
+        max-width: 23.9rem;
         h4 {
           font-weight: 800;
           font-size: 1.8rem;
@@ -143,17 +133,37 @@
           color: $brand-color;
           margin-bottom: 2rem;
         }
-        p {
-          max-width: 23.9rem;
-          font-weight: 400;
-          line-height: 165%;
-          color: $text-color;
-        }
+      p {
+        font-weight: 400;
+        line-height: 165%;
+        color: $text-color;
       }
-      .focus {
+      }
+      .card-featured {
+        width: 100%;
+        max-width: 28rem;
+        height: 32.3rem;
         background-color: $bg-icon;
         border-radius: 1.2rem;
+        padding-top: 4.1rem;
+        padding-left: 4.2rem;
+        .info {
+          p {
+            max-width: 20.4rem;
+          }
+        }
+        .icon {
+          background-color: $white;
+        }
+      }
+      ul {
+        margin-top: 4.1rem;
+        width: 100%;
+        max-width: 90.4rem;
+        @include flex-mode(flex-start, space-between, row);
+        padding-bottom: 6.5rem;
+        border-bottom: 3px solid hsla(261, 46%, 43%, 0.1);
+        padding-left: 2rem;
       }
     }
-  }
 }
