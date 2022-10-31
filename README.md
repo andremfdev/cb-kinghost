@@ -29,9 +29,8 @@
 
 
 <p>
-Primeiro projeto realizado no curso CodeBoost e também meu primeiro contato com desenvovimento em programação, aplicando conhecimentos em HTML5 e CSS3. Neste projeto, pude colocar em prática a importância de ter uma estrutura HTML bem feita para que possamos criar qualquer tipo de layout, seja ele do mais simples ao mais complexo.
-
-Um dos pontos de importância neste projeto foi a construção da responsividade, deixando assim a página descomplicada entre os diversos tipos de tela, gerando uma maior acessibilidade.
+Esse é o segundo projeto desenvolvido a partir do curso CodeBoost. O ponto primordial desse projeto foi aprender a usar o SASS, que é um pré-processador de CSS dando muito mais produtividade e organização, diminuindo em grande escala a repetição de códigos ao projeto.
+O SASS é justamente o ideal para projetos em grande escala, evitando muitas linhas de códigos desnecessárias, deixando muito mais enxuto.
 </p>
 
 <br>
