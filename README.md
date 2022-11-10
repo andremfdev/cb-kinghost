@@ -103,12 +103,7 @@ Aplicando os conhecimentos, e buscando aperfeiçoar cada vez mais pude obter um 
 <h3 id="challenges"><strong>🎯 Challenges</strong></h3>
 
 
-- [x] Desktop version
-- [x] Mobile version
-- [x] Flexbox
-- [x] Responsive
-- [x] Transition
-- [x] Transform
+- [x] SASS
 
 <br>
 
@@ -117,7 +112,8 @@ Aplicando os conhecimentos, e buscando aperfeiçoar cada vez mais pude obter um 
 As tecnologias utilizadas para este projeto foram:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [SASS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 
 <br>
 <hr>
