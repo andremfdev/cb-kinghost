@@ -14,12 +14,12 @@
 
 
 <p align="center">
- <a href="#about">About</a> •
- <a href="#layout">Layout</a> •
- <a href="#deploy">Deploy</a> •
- <a href="#audit">Audit Metrics</a> •
- <a href="#challenges">Challenges</a> •
- <a href="#stack">Stack</a> •
+ <a href="#about">About</a>&nbsp; •&nbsp;
+ <a href="#layout">Layout</a>&nbsp; •&nbsp;
+ <a href="#deploy">Deploy</a>&nbsp; •&nbsp;
+ <a href="#audit">Audit Metrics</a>&nbsp; •&nbsp;
+ <a href="#challenges">Challenges</a>&nbsp; •&nbsp;
+ <a href="#stack">Stack</a>&nbsp; •&nbsp;
  <a href="#autor">Autor</a>
 </p>
 <br>
@@ -30,7 +30,7 @@
 
 <p>
 Esse é o segundo projeto desenvolvido a partir do curso CodeBoost. O ponto primordial desse projeto foi aprender a usar o SASS, que é um pré-processador de CSS dando muito mais produtividade e organização, diminuindo em grande escala a repetição de códigos ao projeto.
-O SASS é justamente o ideal para projetos em grande escala, evitando muitas linhas de códigos desnecessárias, deixando muito mais enxuto.
+O SASS é justamente o ideal para projetos em grande escala, evitando muitas linhas de códigos desnecessárias, deixando muito mais enxuto e flúido.
 </p>
 
 <br>
@@ -41,7 +41,7 @@ O SASS é justamente o ideal para projetos em grande escala, evitando muitas lin
   <img 
     src="./assets-readme/wireframe-desk.gif"
     width="700px" 
-    style="display: inline; border-radius: 15px;"
+    style="display: inline; border-radius: 8px;"
   />
   <h3 align="center"><strong>Mobile model</strong></h3>
 </p>
@@ -50,7 +50,7 @@ O SASS é justamente o ideal para projetos em grande escala, evitando muitas lin
   <img 
     src="./assets-readme/wireframe-mobile.gif"
      height="550px"
-    style="display: inline; border-radius: 15px; border: "
+    style="display: inline; border-radius: 8px; border: "
   />
 </p>
 <br>
@@ -70,7 +70,18 @@ Layout disponível no curso CodeBoost do Mentor Will Moreira (Insany Design). Po
   <img 
     src="./assets-readme/design-kinghost-desktop.png"
     width="700px" 
-    style="display: inline; border-radius: 15px;"
+    style="display: inline; border-radius: 8px;"
+  />
+
+  <br>
+
+  <h3 align="center"><strong>Mobile model</strong></h3>
+<br>
+<p align="center">
+  <img 
+    src="./assets-readme/design-kinghost-mobile.jpg"
+    width="200px" 
+    style="display: inline; border-radius: 8px;"
   />
 
 <br>
