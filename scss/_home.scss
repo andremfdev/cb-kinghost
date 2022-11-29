@@ -47,6 +47,11 @@
           border-radius: 0.6rem;
           width: 4.2rem;
           height: 4.2rem;
+          a {
+            img {
+              animation: arrowAnimate .8s infinite;
+            }
+          }
         }
       }
     }
@@ -234,5 +239,20 @@
         max-width: 95%;
       }
     }
+  }
+}
+
+@keyframes arrowAnimate {
+  0% {
+    transform: translateY(0);
+  }
+
+  66% {
+    transform: translateY(3px);
+
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
