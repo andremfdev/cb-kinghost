@@ -1,4 +1,4 @@
-const menuItens = document.querySelectorAll('.conheca a[href^="#"]')
+const menuItens = document.querySelectorAll('.conheca #recursos[href^="a"]')
 
 menuItens.forEach((item) => {
   item.addEventListener("click", scrollToIdOnClick)
@@ -18,6 +18,6 @@ function scrollToPosition(to) {
 }
 
 function getScrollTopByHref(element) {
-  const id = element.getAttribute("#conheca")
+  const id = element.getAttribute("a")
   return document.querySelector(id).offsetTop
 }
