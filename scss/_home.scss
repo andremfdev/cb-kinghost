@@ -32,7 +32,7 @@
         align-items: center;
         gap: 1.6rem;
         margin-bottom: 8.2rem;
-        span {
+        #recursos {
           font-weight: 700;
           line-height: 1.9rem;
           color: $white;
@@ -41,6 +41,8 @@
             color: #ece2e2;
           }
         }
+        
+        
         .icon {
           @include flex-mode(center, center, row);
           background-color: hsla(261, 41%, 54%, 0.4);
