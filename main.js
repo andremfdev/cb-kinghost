@@ -1,10 +1,23 @@
-// identificando o clique no elemento escolhido -> ID = CONHECA
-const tagItem = document.getElementById('recursos');
+const menuItens = document.querySelectorAll('.conheca a[href^="#"]')
 
-tagItem.addEventListener('click', scrollToIdOnClick);
+menuItens.forEach((item) => {
+  item.addEventListener("click", scrollToIdOnClick)
+})
 
 function scrollToIdOnClick(event) {
-    const element = event.target;
-    console.log(element);
+  event.preventDefault()
+  const to = getScrollTopByHref(event.target) - 119
+  scrollToPosition(to)
 }
-// console.log(tagItem);
+
+function scrollToPosition(to) {
+  window.scroll({
+    top: to,
+    behavior: "smooth",
+  })
+}
+
+function getScrollTopByHref(element) {
+  const id = element.getAttribute("#conheca")
+  return document.querySelector(id).offsetTop
+}
