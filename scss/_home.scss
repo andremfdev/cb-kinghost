@@ -139,7 +139,7 @@
     }
     .info {
       max-width: 23.9rem;
-      h4 {
+      h3 {
         font-weight: 800;
         font-size: 1.8rem;
         line-height: 2.2rem;
@@ -190,7 +190,7 @@
         @include flex-mode(center, center, column);
         .info { 
             max-width: 100%;
-            h4, p {
+            h3, p {
               max-width: 100%;
               text-align: center;
             }
@@ -228,7 +228,7 @@
         li {
         @include flex-mode(center, center, column);
         .info {
-          h4, p{
+          h3, p{
             text-align: center;
           }
         }

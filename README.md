@@ -39,7 +39,7 @@ O SASS é justamente o ideal para projetos em grande escala, evitando muitas lin
 <h3 align="center"><strong>Desktop model</strong></h3>
 <p align="center">
   <img 
-    src="./assets-readme/wireframe-desk.gif"
+    src="./assets-readme/kinghost-desk.gif"
     width="700px" 
     style="display: inline; border-radius: 8px;"
   />
@@ -48,7 +48,7 @@ O SASS é justamente o ideal para projetos em grande escala, evitando muitas lin
 
 <p align="center">
   <img 
-    src="./assets-readme/wireframe-mobile.gif"
+    src="./assets-readme/kinghost-mobile.gif"
      height="550px"
     style="display: inline; border-radius: 8px; border: "
   />
@@ -87,7 +87,7 @@ Layout disponível no curso CodeBoost do Mentor Will Moreira (Insany Design). Po
 <br>
 <h3 id="deploy"><strong>🌐 Deploy</strong></h3>
 
-Segue o resultado do projeto desenvolvido • [Wireframe-andremfdev ](https://cb-wireframe-andremfdev.netlify.app/)
+Segue o resultado do projeto desenvolvido • [Kinghost-andremfdev ](https://andremfdev.github.io/cb-kinghost/)
 
 <br>
 
@@ -99,7 +99,7 @@ Segue o resultado do projeto desenvolvido • [Wireframe-andremfdev ](https://cb
 
 Observação: no momento, o Lighthouse se concentra principalmente nos recursos do Progressive Web Apps, como Adicionar à tela inicial e suporte ao modo offline. No entanto, o objetivo geral do projeto é fornecer uma auditoria abrangente de todos os aspectos da qualidade de um aplicativo da web.
 
-Aplicando os conhecimentos, e buscando aperfeiçoar cada vez mais pude obter um excelente resultado para a construção desse pequeno projeto (Wireframe). Como podem ver o resultado bateu uma performance de 100 </p>
+Aplicando os conhecimentos, e buscando aperfeiçoar cada vez mais pude obter um excelente resultado para a construção desse pequeno projeto (Kinghost). Como podem ver o resultado bateu uma performance de 100 </p>
 <br>
 
 <p align="center">
