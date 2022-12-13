@@ -99,7 +99,7 @@ Segue o resultado do projeto desenvolvido • [Kinghost-andremfdev ](https://and
 
 Observação: no momento, o Lighthouse se concentra principalmente nos recursos do Progressive Web Apps, como Adicionar à tela inicial e suporte ao modo offline. No entanto, o objetivo geral do projeto é fornecer uma auditoria abrangente de todos os aspectos da qualidade de um aplicativo da web.
 
-Aplicando os conhecimentos, e buscando aperfeiçoar cada vez mais pude obter um excelente resultado para a construção desse pequeno projeto (Kinghost). Como podem ver o resultado bateu uma performance de 100 </p>
+Aplicando os conhecimentos, e buscando aperfeiçoar cada vez mais pude obter um excelente resultado para a construção desse pequeno projeto (Kinghost).</p>
 <br>
 
 <p align="center">
@@ -115,6 +115,10 @@ Aplicando os conhecimentos, e buscando aperfeiçoar cada vez mais pude obter um 
 
 
 - [x] SASS
+- [x] Javascript
+- [x] Navbar hide scrolling
+
+
 
 <br>
 
@@ -124,6 +128,8 @@ As tecnologias utilizadas para este projeto foram:
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [SASS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 
 
 <br>
