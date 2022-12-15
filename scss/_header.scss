@@ -22,8 +22,8 @@ header {
                     a {
                 @include flex-mode(center, space-between, row);
                         img {
-                            width: 18px;
-                            height: 18px;
+                            width: 1.8rem;
+                            height: 1.8rem;
                         }
                         span {
                             margin-left: 1.6rem;

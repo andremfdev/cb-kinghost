@@ -61,8 +61,10 @@
     .image-hero {
       position: relative;
       top: 3.7rem;
-      width: 69.153rem;
+      img {
+        width: 69.153rem;
       height: 54rem;
+      }
     }
   }
   @include responsive(991px) {
@@ -140,6 +142,10 @@
       background-color: $bg-icon;
       border-radius: 1.2rem;
       margin-bottom: 3rem;
+      img {
+        width: 2.4rem;
+        height: 2.4rem;
+      }
     }
     .info {
       max-width: 23.9rem;
