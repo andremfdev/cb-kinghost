@@ -9,6 +9,10 @@ header {
     display: flex;
     transition: top 0.3s;
     .container {
+        .logo {
+            width: 18rem;
+            height: 2.4rem;
+        }
         @include flex-mode(center, space-between, row);
         nav {
             ul {
@@ -17,6 +21,10 @@ header {
                 li {
                     a {
                 @include flex-mode(center, space-between, row);
+                        img {
+                            width: 18px;
+                            height: 18px;
+                        }
                         span {
                             margin-left: 1.6rem;
                             font-weight: 400;
